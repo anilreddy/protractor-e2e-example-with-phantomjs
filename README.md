@@ -5,18 +5,19 @@ An example protractor setup which contains all the necessary details using Phant
 
 Installation:
 ---
-Follow these steps
-For Grunt CLI use
+Execute the following command for GruntCLI:
+
+**Note:** You need to install grunt-cli to use grunt command for more information see [here](http://gruntjs.com/getting-started)
 ```
 $ npm install -g grunt-cli
 ```
 
-For dependencies installation use
+For dependencies installation:
 ```
 $ npm install
-$ grunt install
+$ grunt install 
 ```
-To run the tests use
+To run the tests:
 ```
 $ grunt
 ```
