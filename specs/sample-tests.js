@@ -4,7 +4,7 @@ describe('Sample AngularJS Test', function() {
     
     beforeEach(function() {
         browser.get('https://angularjs.org').then(function() {
-            // browser.wait(EC.titleContains('AngularJS'), timeOut);
+            browser.wait(EC.titleContains('AngularJS'), timeOut);
         });
     });
     
