@@ -5,7 +5,9 @@ exports.config = {
     seleniumServerJar: 'node_modules/protractor/selenium/selenium-server-standalone-2.45.0.jar',
     seleniumPort: null,
     seleniumArgs: null,
-    troubleshoot: false,    
+    troubleshoot: false,
+    
+    framework: 'jasmine2',
     
     capabilities: {
 //        browserName: 'chrome'
